@@ -11,8 +11,8 @@ blog_theme: light # Or use dark
 # Profile information
 name: 김재현
 tagline: 학생
-about-description: 저는 용문고등학교 1학년에 재학중인 김재현입니다. # Add Discription
-pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+about-description: 저는 용문고등학교 1학년에 재학중인 김재현입니다. 이곳은 저의 블로그입니다, 환영합니다! # Add Discription
+pic: rd.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
 # Contact links
 email: james011902@gmail.com # Add your Email address
