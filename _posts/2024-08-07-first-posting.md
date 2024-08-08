@@ -1,15 +1,107 @@
----
-lqyout: post
-title: "first posting"
-description: This is first posting!
-date: 2024-08-07
-categorise: jekyll update
----
+<!doctype html>
+<html>
+<head>
+  <style>
+    body{
+      /* 정렬 및 배치 */
+      display: flex;
+      justify-content: center;  
+      /* 배경 색상을 변경할 수 있어요! */
+      /* background-color: #c3c9c954;  */
+      background-color: rgb(240, 5, 150);
+      }    
+    div.contents{
+      /* 정렬 및 배치 */
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-content: center ; 
+      width: 840px;
+    }
 
-# This is a **markdown**(H1)
-***
-## Hi I'm kjm081. (H2)
-### This is first posting. (H3)
-#### Good to see you. (H4)
+    h1.title{
+      /* 정렬 및 배치 */
+      display: flex; 
+      flex-direction: row; 
+      justify-content: start; 
+      padding: 15px; 
+      margin-bottom: 10px;
+      /* 웹페이지 제목 칸 색상을 바꿀 수 있어요!  */
+      background-color: rgb(238, 6, 6); 
+      font-size: larger;
+      /* 테두리를 설정할 수 있어요 */
+      /* border-radius: 10px;
+      border: 2px solid #6ad8d3; */
+    }    
+    
+    ul{list-style: none;}
+    li{float: left; }
+    a{
+      padding-right: 30px; 
+      text-decoration: none; 
+      color: rgb(216, 19, 190); 
+      font-weight: 600;
+    }
+    /* nav바 */
+    div.nav{
+      display: flex; 
+      flex-direction: row; 
+      align-items: center; 
+      height: 35px; 
+      margin-bottom: 10px; 
+      background-color: #4108dd;
+      text-decoration-line: none;
+      /* 테두리를 설정할 수 있어요 */
+      /* border-radius: 10px;
+      border: 3px solid #6ad8d3; */
+    }
+    div.main_aboutLike{
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      min-height: 70vh; 
+      padding: 50px; 
+      background-color: rgb(11, 226, 29);
+      /* 테두리를 설정할 수 있어요 */
+      /* border-radius: 10px; */
+      border: px solid #bfe611;
+    }
 
-<img src="../assets/img/jekyll-poster.png" width="500px" height="200px">
+    p.title{
+      display: flex; 
+      flex-direction: row; 
+      justify-content: center; 
+      padding: 15px; 
+      margin-bottom: 4px; 
+      font-size: larger;
+    }
+
+
+  </style>
+  <title>나만의 웹페이지</title>
+  <meta charset="utf-8">
+  
+</head>
+<body>
+  <div class="contents">
+    <h1 class="title">나만의 웹페이지</h1>
+
+  <div class="nav">
+    <ul>
+      <li><a href="aboutMe.html">About Me</a></li>
+      <li><a href="aboutLike.html">About Like</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+
+    </ul>
+  </div>
+  
+  <div class="main_aboutLike">
+    <!-- about Like 페이지에 들어갈 나의 취미와 좋아하는 것을 소개하는 내용을 추가해봅시다. (이미지 태그와 p태그를 이용해보세요)-->
+    <img src="dog.png" width="350px" height="450px">
+    <p>강아지</p>
+    <img src="CC.gif" width="450" height="550px">
+    <p>개</p>
+  </div>
+  </div>
+  
+</body>
