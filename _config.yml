@@ -17,10 +17,10 @@ pic: rd.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide th
 # Contact links
 email: james011902@gmail.com # Add your Email address
 phone: 010 2390 6348 # Add your Phone number
-website: artemsheludko.pw # Add your website, do not add http://
+website: https://github.com/kjm081 # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
+github: kjm081 # Add your Github handle
+instagram: 'james011902' # Add your Twitter handle
 
 # Tracker
 analytics:
