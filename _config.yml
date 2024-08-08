@@ -1,4 +1,4 @@
-title: Wendell Thomas
+title: 김재현의 블로그  
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -6,17 +6,17 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kjm081.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: ':title/'
-blog_theme: dark # Or use dark
+blog_theme: light # Or use dark
 
 # Profile information
 name: 김재현
-tagline: Full Stack Developer
-about-description: # Add Discription
+tagline: 학생
+about-description: 저는 용문고등학교 1학년에 재학중인 김재현입니다. # Add Discription
 pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
 # Contact links
-email: artemsheludko@tuta.io # Add your Email address
-phone: 044 825 5523 # Add your Phone number
+email: james011902@gmail.com # Add your Email address
+phone: 010 2390 6348 # Add your Phone number
 website: artemsheludko.pw # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
 github: artemsheludko # Add your Github handle
