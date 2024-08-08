@@ -29,6 +29,13 @@ layout: default
           <li class="instagram"><a href="https://instagram.com/james011902" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> james011902</a></li>
         {% endif %}
 
+        
+        {% if site.instagram %}
+          <li class="website"><a href="https://instagram.com/{{site.website}}" target="_blank"><i class="fa fa-자세히 알기"></i> {{site.instagram}}</a></li>
+         {% else %}
+          <li class="website"><a href="" target="_blank"><i class="fa fa-자세히 알기" aria-hidden="true"></i> 자세히 알기</a></li>
+        {% endif %}
+
       </ul>
     </div>
   </div>
